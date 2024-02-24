@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.7" xml:lang="en-US">
+  <compound refid="class_project_test" kind="class"><name>ProjectTest</name>
+    <member refid="class_project_test_1a0c582bad886b85a8c8d8af1d722c6821" kind="variable"><name>out</name></member>
+    <member refid="class_project_test_1a6199226876d7ee68c663405f5bb83e2a" kind="variable"><name>in</name></member>
+    <member refid="class_project_test_1afe3d3b5a2860873328f75762183f299b" kind="function"><name>SetUp</name></member>
+    <member refid="class_project_test_1a922f06a512fa37ef0ce7ce755025caa8" kind="function"><name>TearDown</name></member>
+    <member refid="class_project_test_1ab5f127f1083924a5a0b645eb8202b28f" kind="function"><name>simulateUserInput</name></member>
+  </compound>
+  <compound refid="namespacetesting" kind="namespace"><name>testing</name>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="project__test_8cpp" kind="file"><name>project_test.cpp</name>
+    <member refid="project__test_8cpp_1ad9bd2b5f8215382ff0c272b8596eeaef" kind="function"><name>TEST_F</name></member>
+    <member refid="project__test_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="utility__test_8cpp" kind="file"><name>utility_test.cpp</name>
+  </compound>
+  <compound refid="dir_66821b5fc630eb76342b784a36cb8b59" kind="dir"><name>src/tests/project</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  </compound>
+  <compound refid="dir_d93a1d4020dea85bb71b237545b5e722" kind="dir"><name>src/tests</name>
+  </compound>
+  <compound refid="dir_5f7dbe22ab4663025932929c1a2221ac" kind="dir"><name>src/tests/utility</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

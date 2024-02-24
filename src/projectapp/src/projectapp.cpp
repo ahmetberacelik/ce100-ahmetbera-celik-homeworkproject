@@ -11,6 +11,6 @@
 #include "../../project/header/project.h"
 
 int main() {
-
+    menu();
     return 0;
 }

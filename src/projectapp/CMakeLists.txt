@@ -18,7 +18,7 @@ source_group("header" FILES ${APP_HEADERS})
 source_group("src" FILES ${APP_SOURCES})
 
 # Set Properties->General->Configuration Type to Dynamic Library (.dll/.so/.dylib)
-add_executable(${APPNAME} ${APP_HEADERS} ${APP_SOURCES}) # for dynamic library use SHARED
+add_executable(${APPNAME} ${APP_HEADERS} ${APP_SOURCES} ) # for dynamic library use SHARED
 
 target_include_directories(${APPNAME} PUBLIC
 						   ${CMAKE_CURRENT_SOURCE_DIR}/../utility/header
