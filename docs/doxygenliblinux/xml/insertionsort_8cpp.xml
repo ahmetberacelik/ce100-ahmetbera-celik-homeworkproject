@@ -21,15 +21,11 @@
       </node>
     </incdepgraph>
       <sectiondef kind="func">
-      <memberdef kind="function" id="insertionsort_8cpp_1a44f5bf3f6e9bddd2b0c0cd11ffb211ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="insertionsort_8cpp_1ade9dca2ac7c0cc0ad7a49debee6ec8b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void InsertionSort</definition>
-        <argsstring>(std::istream &amp;in, std::ostream &amp;out, int number[5])</argsstring>
+        <argsstring>(std::ostream &amp;out, int number[5])</argsstring>
         <name>InsertionSort</name>
-        <param>
-          <type>std::istream &amp;</type>
-          <declname>in</declname>
-        </param>
         <param>
           <type>std::ostream &amp;</type>
           <declname>out</declname>
@@ -66,7 +62,7 @@ The function modifies the input array in place. </para>
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;../header/project.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="insertionsort_8cpp_1a44f5bf3f6e9bddd2b0c0cd11ffb211ab" kindref="member">InsertionSort</ref>(std::istream&amp;<sp/>in,<sp/>std::ostream&amp;<sp/>out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>number[5])<sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="insertionsort_8cpp_1ade9dca2ac7c0cc0ad7a49debee6ec8b6" kindref="member">InsertionSort</ref>(std::ostream&amp;<sp/>out,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>number[5])<sp/>{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>q<sp/>=<sp/>1;</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j<sp/>=<sp/>1;<sp/>j<sp/>&lt;<sp/>5;<sp/>j++)<sp/>{</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>key<sp/>=<sp/>number[j];</highlight></codeline>

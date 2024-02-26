@@ -13,6 +13,9 @@
   </compound>
   <compound refid="project__test_8cpp" kind="file"><name>project_test.cpp</name>
     <member refid="project__test_8cpp_1ad9bd2b5f8215382ff0c272b8596eeaef" kind="function"><name>TEST_F</name></member>
+    <member refid="project__test_8cpp_1a75fd5ae367ae92f3655f3fb71d939925" kind="function"><name>TEST_F</name></member>
+    <member refid="project__test_8cpp_1a36ddfc14381030ff82ceff0e066f73d7" kind="function"><name>TEST_F</name></member>
+    <member refid="project__test_8cpp_1a31b89a717db1fc0300ca051eb8292084" kind="function"><name>TEST_F</name></member>
     <member refid="project__test_8cpp_1ac1332b8e501c645cf383efd5b7026e3d" kind="function"><name>TEST_F</name></member>
     <member refid="project__test_8cpp_1ab1af176ff85927f8894b18ae0cf472b2" kind="function"><name>TEST_F</name></member>
     <member refid="project__test_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kind="function"><name>main</name></member>

@@ -41,6 +41,63 @@
         </inbodydescription>
         <location file="src/tests/project/project_test.cpp" line="24" column="1" bodyfile="src/tests/project/project_test.cpp" bodystart="24" bodyend="38"/>
       </memberdef>
+      <memberdef kind="function" id="project__test_8cpp_1a75fd5ae367ae92f3655f3fb71d939925" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST_F</definition>
+        <argsstring>(ProjectTest, MergeFunctionTest)</argsstring>
+        <name>TEST_F</name>
+        <param>
+          <type><ref refid="class_project_test" kindref="compound">ProjectTest</ref></type>
+        </param>
+        <param>
+          <type>MergeFunctionTest</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/project/project_test.cpp" line="40" column="1" bodyfile="src/tests/project/project_test.cpp" bodystart="40" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="project__test_8cpp_1a36ddfc14381030ff82ceff0e066f73d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST_F</definition>
+        <argsstring>(ProjectTest, MergeSortFunctionTest)</argsstring>
+        <name>TEST_F</name>
+        <param>
+          <type><ref refid="class_project_test" kindref="compound">ProjectTest</ref></type>
+        </param>
+        <param>
+          <type>MergeSortFunctionTest</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/project/project_test.cpp" line="51" column="1" bodyfile="src/tests/project/project_test.cpp" bodystart="51" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="project__test_8cpp_1a31b89a717db1fc0300ca051eb8292084" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST_F</definition>
+        <argsstring>(ProjectTest, MergeSortPrintArrayTest)</argsstring>
+        <name>TEST_F</name>
+        <param>
+          <type><ref refid="class_project_test" kindref="compound">ProjectTest</ref></type>
+        </param>
+        <param>
+          <type>MergeSortPrintArrayTest</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/project/project_test.cpp" line="60" column="1" bodyfile="src/tests/project/project_test.cpp" bodystart="60" bodyend="65"/>
+      </memberdef>
       <memberdef kind="function" id="project__test_8cpp_1ac1332b8e501c645cf383efd5b7026e3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>TEST_F</definition>
@@ -58,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/tests/project/project_test.cpp" line="40" column="1" bodyfile="src/tests/project/project_test.cpp" bodystart="40" bodyend="55"/>
+        <location file="src/tests/project/project_test.cpp" line="68" column="1" bodyfile="src/tests/project/project_test.cpp" bodystart="68" bodyend="86"/>
       </memberdef>
       <memberdef kind="function" id="project__test_8cpp_1ab1af176ff85927f8894b18ae0cf472b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -77,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/tests/project/project_test.cpp" line="57" column="1" bodyfile="src/tests/project/project_test.cpp" bodystart="57" bodyend="74"/>
+        <location file="src/tests/project/project_test.cpp" line="88" column="1" bodyfile="src/tests/project/project_test.cpp" bodystart="88" bodyend="108"/>
       </memberdef>
       <memberdef kind="function" id="project__test_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -119,7 +176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/tests/project/project_test.cpp" line="82" column="5" bodyfile="src/tests/project/project_test.cpp" bodystart="82" bodyend="89"/>
+        <location file="src/tests/project/project_test.cpp" line="116" column="5" bodyfile="src/tests/project/project_test.cpp" bodystart="116" bodyend="123"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -166,49 +223,83 @@
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
 <codeline lineno="38"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40" refid="project__test_8cpp_1ac1332b8e501c645cf383efd5b7026e3d" refkind="member"><highlight class="normal"><ref refid="project__test_8cpp_1ad9bd2b5f8215382ff0c272b8596eeaef" kindref="member">TEST_F</ref>(<ref refid="class_project_test" kindref="compound">ProjectTest</ref>,<sp/>ValidInputTest)<sp/>{</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>simulateUserInput(</highlight><highlight class="stringliteral">&quot;8\n7\n3\n47\n96\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>menu(in,<sp/>out);</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>expectedOutput<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Please<sp/>enter<sp/>5<sp/>numbers:<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Please<sp/>enter<sp/>1.<sp/>number:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Please<sp/>enter<sp/>2.<sp/>number:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Please<sp/>enter<sp/>3.<sp/>number:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Please<sp/>enter<sp/>4.<sp/>number:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Please<sp/>enter<sp/>5.<sp/>number:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;1.step:<sp/>7<sp/>8<sp/>3<sp/>47<sp/>96<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;2.step:<sp/>3<sp/>7<sp/>8<sp/>47<sp/>96<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;3.step:<sp/>3<sp/>7<sp/>8<sp/>47<sp/>96<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;4.step:<sp/>3<sp/>7<sp/>8<sp/>47<sp/>96<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Sorting<sp/>with<sp/>Insertion<sp/>Sort:<sp/>3<sp/>7<sp/>8<sp/>47<sp/>96<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(expectedOutput,<sp/>out.str());</highlight></codeline>
-<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57" refid="project__test_8cpp_1ab1af176ff85927f8894b18ae0cf472b2" refkind="member"><highlight class="normal"><ref refid="project__test_8cpp_1ad9bd2b5f8215382ff0c272b8596eeaef" kindref="member">TEST_F</ref>(<ref refid="class_project_test" kindref="compound">ProjectTest</ref>,<sp/>NonNumberInputTest)<sp/>{</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>simulateUserInput(</highlight><highlight class="stringliteral">&quot;**\n8\n7\n3\n47\n96\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>menu(in,<sp/>out);</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>expectedOutput<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Please<sp/>enter<sp/>5<sp/>numbers:<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Please<sp/>enter<sp/>1.<sp/>number:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Error:<sp/>Please<sp/>enter<sp/>a<sp/>valid<sp/>number.\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Please<sp/>enter<sp/>1.<sp/>number:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Please<sp/>enter<sp/>2.<sp/>number:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Please<sp/>enter<sp/>3.<sp/>number:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Please<sp/>enter<sp/>4.<sp/>number:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Please<sp/>enter<sp/>5.<sp/>number:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;1.step:<sp/>7<sp/>8<sp/>3<sp/>47<sp/>96<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;2.step:<sp/>3<sp/>7<sp/>8<sp/>47<sp/>96<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;3.step:<sp/>3<sp/>7<sp/>8<sp/>47<sp/>96<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;4.step:<sp/>3<sp/>7<sp/>8<sp/>47<sp/>96<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Sorting<sp/>with<sp/>Insertion<sp/>Sort:<sp/>3<sp/>7<sp/>8<sp/>47<sp/>96<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(expectedOutput,<sp/>out.str());</highlight></codeline>
-<codeline lineno="74"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="82" refid="project__test_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="project__test_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kindref="member">main</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>argv)<sp/>{</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>ENABLE_PROJECT_TEST</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>::testing::InitGoogleTest(&amp;argc,<sp/>argv);</highlight></codeline>
-<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>RUN_ALL_TESTS();</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="89"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40" refid="project__test_8cpp_1a75fd5ae367ae92f3655f3fb71d939925" refkind="member"><highlight class="normal"><ref refid="project__test_8cpp_1ad9bd2b5f8215382ff0c272b8596eeaef" kindref="member">TEST_F</ref>(<ref refid="class_project_test" kindref="compound">ProjectTest</ref>,<sp/>MergeFunctionTest)<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>arr[5]<sp/>=<sp/>{<sp/>2,<sp/>4,<sp/>5,<sp/>1,<sp/>3<sp/>};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>Merge(in,<sp/>out,<sp/>arr,<sp/>0,<sp/>2,<sp/>4);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>expectedOutput<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Merged<sp/>array<sp/>from<sp/>0<sp/>to<sp/>4:<sp/>1<sp/>2<sp/>3<sp/>4<sp/>5<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(expectedOutput,<sp/>out.str());</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>expectedArr[5]<sp/>=<sp/>{<sp/>1,<sp/>2,<sp/>3,<sp/>4,<sp/>5<sp/>};</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>5;<sp/>++i)<sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(arr[i],<sp/>expectedArr[i]);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="project__test_8cpp_1a36ddfc14381030ff82ceff0e066f73d7" refkind="member"><highlight class="normal"><ref refid="project__test_8cpp_1ad9bd2b5f8215382ff0c272b8596eeaef" kindref="member">TEST_F</ref>(<ref refid="class_project_test" kindref="compound">ProjectTest</ref>,<sp/>MergeSortFunctionTest)<sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>arr[5]<sp/>=<sp/>{<sp/>5,<sp/>4,<sp/>3,<sp/>1,<sp/>2<sp/>};</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>MergeSort(arr,<sp/>0,<sp/>4);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>expectedArr[5]<sp/>=<sp/>{<sp/>1,<sp/>2,<sp/>3,<sp/>4,<sp/>5<sp/>};</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>5;<sp/>++i)<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(arr[i],<sp/>expectedArr[i]);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="project__test_8cpp_1a31b89a717db1fc0300ca051eb8292084" refkind="member"><highlight class="normal"><ref refid="project__test_8cpp_1ad9bd2b5f8215382ff0c272b8596eeaef" kindref="member">TEST_F</ref>(<ref refid="class_project_test" kindref="compound">ProjectTest</ref>,<sp/>MergeSortPrintArrayTest)<sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>arr[5]<sp/>=<sp/>{<sp/>1,<sp/>2,<sp/>3,<sp/>4,<sp/>5<sp/>};</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>MergeSortPrintArray(in,<sp/>out,<sp/>arr,<sp/>5);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>expectedOutput<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;1<sp/>2<sp/>3<sp/>4<sp/>5<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(expectedOutput,<sp/>out.str());</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="project__test_8cpp_1ac1332b8e501c645cf383efd5b7026e3d" refkind="member"><highlight class="normal"><ref refid="project__test_8cpp_1ad9bd2b5f8215382ff0c272b8596eeaef" kindref="member">TEST_F</ref>(<ref refid="class_project_test" kindref="compound">ProjectTest</ref>,<sp/>ValidInputTest)<sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>simulateUserInput(</highlight><highlight class="stringliteral">&quot;8\n7\n3\n47\n96\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>menu(in,<sp/>out);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>expectedOutput<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Please<sp/>enter<sp/>5<sp/>numbers:<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Please<sp/>enter<sp/>1.<sp/>number:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Please<sp/>enter<sp/>2.<sp/>number:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Please<sp/>enter<sp/>3.<sp/>number:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Please<sp/>enter<sp/>4.<sp/>number:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Please<sp/>enter<sp/>5.<sp/>number:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;--------------------------------------------------\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Sorting<sp/>with<sp/>Insertion<sp/>Sort:<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;1.step:<sp/>7<sp/>8<sp/>3<sp/>47<sp/>96<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;2.step:<sp/>3<sp/>7<sp/>8<sp/>47<sp/>96<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;3.step:<sp/>3<sp/>7<sp/>8<sp/>47<sp/>96<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;4.step:<sp/>3<sp/>7<sp/>8<sp/>47<sp/>96<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Insertion<sp/>Sort<sp/>Result:<sp/>3<sp/>7<sp/>8<sp/>47<sp/>96<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Sorting<sp/>with<sp/>Merge<sp/>Sort:<sp/>3<sp/>7<sp/>8<sp/>47<sp/>96<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(expectedOutput,<sp/>out.str());</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="project__test_8cpp_1ab1af176ff85927f8894b18ae0cf472b2" refkind="member"><highlight class="normal"><ref refid="project__test_8cpp_1ad9bd2b5f8215382ff0c272b8596eeaef" kindref="member">TEST_F</ref>(<ref refid="class_project_test" kindref="compound">ProjectTest</ref>,<sp/>NonNumberInputTest)<sp/>{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>simulateUserInput(</highlight><highlight class="stringliteral">&quot;**\n8\n7\n3\n47\n96\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>menu(in,<sp/>out);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>expectedOutput<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Please<sp/>enter<sp/>5<sp/>numbers:<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Please<sp/>enter<sp/>1.<sp/>number:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Error:<sp/>Please<sp/>enter<sp/>a<sp/>valid<sp/>number.\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Please<sp/>enter<sp/>1.<sp/>number:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Please<sp/>enter<sp/>2.<sp/>number:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Please<sp/>enter<sp/>3.<sp/>number:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Please<sp/>enter<sp/>4.<sp/>number:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Please<sp/>enter<sp/>5.<sp/>number:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;--------------------------------------------------\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Sorting<sp/>with<sp/>Insertion<sp/>Sort:<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;1.step:<sp/>7<sp/>8<sp/>3<sp/>47<sp/>96<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;2.step:<sp/>3<sp/>7<sp/>8<sp/>47<sp/>96<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;3.step:<sp/>3<sp/>7<sp/>8<sp/>47<sp/>96<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;4.step:<sp/>3<sp/>7<sp/>8<sp/>47<sp/>96<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Insertion<sp/>Sort<sp/>Result:<sp/>3<sp/>7<sp/>8<sp/>47<sp/>96<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>expectedOutput<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;Sorting<sp/>with<sp/>Merge<sp/>Sort:<sp/>3<sp/>7<sp/>8<sp/>47<sp/>96<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(expectedOutput,<sp/>out.str());</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="116" refid="project__test_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="project__test_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kindref="member">main</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>argv)<sp/>{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>ENABLE_PROJECT_TEST</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>::testing::InitGoogleTest(&amp;argc,<sp/>argv);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>RUN_ALL_TESTS();</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="src/tests/project/project_test.cpp"/>
   </compounddef>

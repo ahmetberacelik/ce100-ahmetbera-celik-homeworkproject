@@ -10,7 +10,7 @@
  * @param number An array of integers to be sorted.
  * @details The function modifies the input array in place.
  */
-void InsertionSort(std::istream& in, std::ostream& out, int number[5]) {
+void InsertionSort(std::ostream& out, int number[5]) {
     int q = 1;
     for (int j = 1; j < 5; j++) {
         int key = number[j];

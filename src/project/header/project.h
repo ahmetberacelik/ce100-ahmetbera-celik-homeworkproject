@@ -10,6 +10,12 @@
 
 void menu(std::istream& in, std::ostream& out);
 
-void InsertionSort(std::istream& in, std::ostream& out, int number[5]);
+void InsertionSort(std::ostream& out, int number[5]);
+
+void Merge(std::ostream& out, int A[], int p, int q, int r);
+
+void MergeSort(int A[], int p, int r);
+
+void MergeSortPrintArray(std::ostream& out, int A[], int size);
 
 #endif // PROJECT_H

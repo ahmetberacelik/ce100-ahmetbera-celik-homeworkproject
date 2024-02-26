@@ -97,15 +97,21 @@ This graph shows which files directly or indirectly include this file:</div>
 Functions</h2></td></tr>
 <tr class="memitem:a3bc98924103763d535827a36279a2a72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="project_8h.html#a3bc98924103763d535827a36279a2a72">menu</a> (std::istream &amp;in, std::ostream &amp;out)</td></tr>
 <tr class="separator:a3bc98924103763d535827a36279a2a72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44f5bf3f6e9bddd2b0c0cd11ffb211ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="project_8h.html#a44f5bf3f6e9bddd2b0c0cd11ffb211ab">InsertionSort</a> (std::istream &amp;in, std::ostream &amp;out, int number[5])</td></tr>
-<tr class="memdesc:a44f5bf3f6e9bddd2b0c0cd11ffb211ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts an array of integers using the Insertion Sort algorithm.  <a href="project_8h.html#a44f5bf3f6e9bddd2b0c0cd11ffb211ab">More...</a><br /></td></tr>
-<tr class="separator:a44f5bf3f6e9bddd2b0c0cd11ffb211ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade9dca2ac7c0cc0ad7a49debee6ec8b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="project_8h.html#ade9dca2ac7c0cc0ad7a49debee6ec8b6">InsertionSort</a> (std::ostream &amp;out, int number[5])</td></tr>
+<tr class="memdesc:ade9dca2ac7c0cc0ad7a49debee6ec8b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts an array of integers using the Insertion Sort algorithm.  <a href="project_8h.html#ade9dca2ac7c0cc0ad7a49debee6ec8b6">More...</a><br /></td></tr>
+<tr class="separator:ade9dca2ac7c0cc0ad7a49debee6ec8b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3688b7d6e9dd6789831a976256f42f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="project_8h.html#aa3688b7d6e9dd6789831a976256f42f9">Merge</a> (std::ostream &amp;out, int A[], int p, int q, int r)</td></tr>
+<tr class="separator:aa3688b7d6e9dd6789831a976256f42f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5789ec638e47ea2395fb0b9bf0fd27d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="project_8h.html#a5789ec638e47ea2395fb0b9bf0fd27d8">MergeSort</a> (int A[], int p, int r)</td></tr>
+<tr class="separator:a5789ec638e47ea2395fb0b9bf0fd27d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8df1b0890c16aac53f79c679056c7f7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="project_8h.html#a8df1b0890c16aac53f79c679056c7f7e">MergeSortPrintArray</a> (std::ostream &amp;out, int A[], int size)</td></tr>
+<tr class="separator:a8df1b0890c16aac53f79c679056c7f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides functions for math. utilities. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="a44f5bf3f6e9bddd2b0c0cd11ffb211ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44f5bf3f6e9bddd2b0c0cd11ffb211ab">&#9670;&nbsp;</a></span>InsertionSort()</h2>
+<a id="ade9dca2ac7c0cc0ad7a49debee6ec8b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade9dca2ac7c0cc0ad7a49debee6ec8b6">&#9670;&nbsp;</a></span>InsertionSort()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -113,12 +119,6 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void InsertionSort </td>
           <td>(</td>
-          <td class="paramtype">std::istream &amp;&#160;</td>
-          <td class="paramname"><em>in</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">std::ostream &amp;&#160;</td>
           <td class="paramname"><em>out</em>, </td>
         </tr>
@@ -165,6 +165,120 @@ Functions</h2></td></tr>
           <td></td>
           <td class="paramtype">std::ostream &amp;&#160;</td>
           <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa3688b7d6e9dd6789831a976256f42f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3688b7d6e9dd6789831a976256f42f9">&#9670;&nbsp;</a></span>Merge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Merge </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>out</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>A</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>q</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>r</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5789ec638e47ea2395fb0b9bf0fd27d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5789ec638e47ea2395fb0b9bf0fd27d8">&#9670;&nbsp;</a></span>MergeSort()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MergeSort </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>A</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>r</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8df1b0890c16aac53f79c679056c7f7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8df1b0890c16aac53f79c679056c7f7e">&#9670;&nbsp;</a></span>MergeSortPrintArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MergeSortPrintArray </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>out</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>A</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

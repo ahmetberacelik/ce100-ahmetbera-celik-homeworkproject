@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage version="1.0" date="2024-02-26_18-39-27" tag="">
+  <assembly name="Default">
+    <class name="/mnt/c/Users/Bera/Desktop/ce100-ahmetbera-celik-homeworkproject/src/project/src/insertionsort.cpp" coveredlines="17" coverablelines="17" totallines="33" coveredbranches="9" totalbranches="10" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="/mnt/c/Users/Bera/Desktop/ce100-ahmetbera-celik-homeworkproject/src/project/src/mergesort.cpp" coveredlines="42" coverablelines="42" totallines="67" coveredbranches="22" totalbranches="26" coveredcodeelements="3" totalcodeelements="3" />
+    <class name="/mnt/c/Users/Bera/Desktop/ce100-ahmetbera-celik-homeworkproject/src/project/src/project.cpp" coveredlines="21" coverablelines="21" totallines="30" coveredbranches="25" totalbranches="44" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="/mnt/c/Users/Bera/Desktop/ce100-ahmetbera-celik-homeworkproject/src/projectapp/src/projectapp.cpp" coveredlines="3" coverablelines="3" totallines="14" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="/mnt/c/Users/Bera/Desktop/ce100-ahmetbera-celik-homeworkproject/src/tests/project/project_test.cpp" coveredlines="87" coverablelines="87" totallines="123" coveredbranches="75" totalbranches="192" coveredcodeelements="10" totalcodeelements="28" />
+  </assembly>
+</coverage>

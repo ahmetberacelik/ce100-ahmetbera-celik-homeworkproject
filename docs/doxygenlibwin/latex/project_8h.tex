@@ -26,7 +26,13 @@ This graph shows which files directly or indirectly include this file\+:\nopageb
 void \mbox{\hyperlink{project_8h_a3bc98924103763d535827a36279a2a72}{menu}} (std\+::istream \&in, std\+::ostream \&out)
 \item 
 void \mbox{\hyperlink{project_8h_a44f5bf3f6e9bddd2b0c0cd11ffb211ab}{Insertion\+Sort}} (std\+::istream \&in, std\+::ostream \&out, int number\mbox{[}5\mbox{]})
-\begin{DoxyCompactList}\small\item\em Sorts an array of integers using the Insertion Sort algorithm. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Sorts an array of integers using the Insertion Sort algorithm. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{project_8h_a13c5f039634d8d6a6dc782f40e391359}{Merge}} (std\+::istream \&in, std\+::ostream \&out, int A\mbox{[}$\,$\mbox{]}, int p, int q, int r)
+\item 
+void \mbox{\hyperlink{project_8h_a5789ec638e47ea2395fb0b9bf0fd27d8}{Merge\+Sort}} (int A\mbox{[}$\,$\mbox{]}, int p, int r)
+\item 
+void \mbox{\hyperlink{project_8h_a8492d5a859b6b8d798ecf4a82ffcfa89}{Merge\+Sort\+Print\+Array}} (std\+::istream \&in, std\+::ostream \&out, int A\mbox{[}$\,$\mbox{]}, int size)
+\end{DoxyCompactItemize}
 
 
 \doxysubsection{Detailed Description}
@@ -57,4 +63,22 @@ The function modifies the input array in place. \Hypertarget{project_8h_a3bc9892
 \index{menu@{menu}!project.h@{project.h}}
 \doxysubsubsection{\texorpdfstring{menu()}{menu()}}
 {\footnotesize\ttfamily void menu (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{in,  }\item[{std\+::ostream \&}]{out }\end{DoxyParamCaption})}
+
+\Hypertarget{project_8h_a13c5f039634d8d6a6dc782f40e391359}\label{project_8h_a13c5f039634d8d6a6dc782f40e391359} 
+\index{project.h@{project.h}!Merge@{Merge}}
+\index{Merge@{Merge}!project.h@{project.h}}
+\doxysubsubsection{\texorpdfstring{Merge()}{Merge()}}
+{\footnotesize\ttfamily void Merge (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{in,  }\item[{std\+::ostream \&}]{out,  }\item[{int}]{A\mbox{[}$\,$\mbox{]},  }\item[{int}]{p,  }\item[{int}]{q,  }\item[{int}]{r }\end{DoxyParamCaption})}
+
+\Hypertarget{project_8h_a5789ec638e47ea2395fb0b9bf0fd27d8}\label{project_8h_a5789ec638e47ea2395fb0b9bf0fd27d8} 
+\index{project.h@{project.h}!MergeSort@{MergeSort}}
+\index{MergeSort@{MergeSort}!project.h@{project.h}}
+\doxysubsubsection{\texorpdfstring{MergeSort()}{MergeSort()}}
+{\footnotesize\ttfamily void Merge\+Sort (\begin{DoxyParamCaption}\item[{int}]{A\mbox{[}$\,$\mbox{]},  }\item[{int}]{p,  }\item[{int}]{r }\end{DoxyParamCaption})}
+
+\Hypertarget{project_8h_a8492d5a859b6b8d798ecf4a82ffcfa89}\label{project_8h_a8492d5a859b6b8d798ecf4a82ffcfa89} 
+\index{project.h@{project.h}!MergeSortPrintArray@{MergeSortPrintArray}}
+\index{MergeSortPrintArray@{MergeSortPrintArray}!project.h@{project.h}}
+\doxysubsubsection{\texorpdfstring{MergeSortPrintArray()}{MergeSortPrintArray()}}
+{\footnotesize\ttfamily void Merge\+Sort\+Print\+Array (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{in,  }\item[{std\+::ostream \&}]{out,  }\item[{int}]{A\mbox{[}$\,$\mbox{]},  }\item[{int}]{size }\end{DoxyParamCaption})}
 

@@ -4,12 +4,18 @@
   </compound>
   <compound refid="project_8h" kind="file"><name>project.h</name>
     <member refid="project_8h_1a3bc98924103763d535827a36279a2a72" kind="function"><name>menu</name></member>
-    <member refid="project_8h_1a44f5bf3f6e9bddd2b0c0cd11ffb211ab" kind="function"><name>InsertionSort</name></member>
+    <member refid="project_8h_1ade9dca2ac7c0cc0ad7a49debee6ec8b6" kind="function"><name>InsertionSort</name></member>
+    <member refid="project_8h_1aa3688b7d6e9dd6789831a976256f42f9" kind="function"><name>Merge</name></member>
+    <member refid="project_8h_1a5789ec638e47ea2395fb0b9bf0fd27d8" kind="function"><name>MergeSort</name></member>
+    <member refid="project_8h_1a8df1b0890c16aac53f79c679056c7f7e" kind="function"><name>MergeSortPrintArray</name></member>
   </compound>
   <compound refid="insertionsort_8cpp" kind="file"><name>insertionsort.cpp</name>
-    <member refid="insertionsort_8cpp_1a44f5bf3f6e9bddd2b0c0cd11ffb211ab" kind="function"><name>InsertionSort</name></member>
+    <member refid="insertionsort_8cpp_1ade9dca2ac7c0cc0ad7a49debee6ec8b6" kind="function"><name>InsertionSort</name></member>
   </compound>
   <compound refid="mergesort_8cpp" kind="file"><name>mergesort.cpp</name>
+    <member refid="mergesort_8cpp_1aa3688b7d6e9dd6789831a976256f42f9" kind="function"><name>Merge</name></member>
+    <member refid="mergesort_8cpp_1a5789ec638e47ea2395fb0b9bf0fd27d8" kind="function"><name>MergeSort</name></member>
+    <member refid="mergesort_8cpp_1a8df1b0890c16aac53f79c679056c7f7e" kind="function"><name>MergeSortPrintArray</name></member>
   </compound>
   <compound refid="project_8cpp" kind="file"><name>project.cpp</name>
     <member refid="project_8cpp_1a3bc98924103763d535827a36279a2a72" kind="function"><name>menu</name></member>

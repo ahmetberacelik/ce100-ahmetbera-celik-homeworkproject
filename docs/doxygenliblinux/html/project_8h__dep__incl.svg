@@ -59,72 +59,72 @@ var sectionId = 'dynsection-1';
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title="Provides functions for math. utilities.">
-<polygon fill="#bfbfbf" stroke="black" points="232.5,-67.5 232.5,-97.5 336.5,-97.5 336.5,-67.5 232.5,-67.5"/>
-<text text-anchor="start" x="240.5" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/project/header</text>
-<text text-anchor="middle" x="284.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">/project.h</text>
+<polygon fill="#bfbfbf" stroke="black" points="278,-67.5 278,-97.5 382,-97.5 382,-67.5 278,-67.5"/>
+<text text-anchor="start" x="286" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/project/header</text>
+<text text-anchor="middle" x="330" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">/project.h</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="projectapp_8cpp.html" target="_top" xlink:title="A simple program to demonstrate the usage of the project model class.">
-<polygon fill="white" stroke="black" points="0,-0.5 0,-30.5 103,-30.5 103,-0.5 0,-0.5"/>
-<text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/projectapp/src</text>
-<text text-anchor="middle" x="51.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/projectapp.cpp</text>
+<g id="a_node2"><a xlink:href="project_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="0,-6 0,-25 142,-25 142,-6 0,-6"/>
+<text text-anchor="middle" x="71" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">src/project/src/project.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M224.33,-64.71C186.42,-54.14 138.01,-40.63 102.08,-30.61"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="223.66,-68.16 234.23,-67.48 225.54,-61.42 223.66,-68.16"/>
+<path fill="none" stroke="midnightblue" d="M267.94,-65.93C216.8,-53.09 146.19,-35.37 104.88,-25"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="267.35,-69.38 277.9,-68.42 269.05,-62.6 267.35,-69.38"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="mergesort_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="121.5,-6 121.5,-25 279.5,-25 279.5,-6 121.5,-6"/>
-<text text-anchor="middle" x="200.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">src/project/src/mergesort.cpp</text>
+<polygon fill="white" stroke="black" points="160,-6 160,-25 318,-25 318,-6 160,-6"/>
+<text text-anchor="middle" x="239" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">src/project/src/mergesort.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M258.02,-61.01C242.42,-48.94 223.51,-34.3 211.74,-25.19"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="256.22,-64.04 266.27,-67.4 260.51,-58.51 256.22,-64.04"/>
+<path fill="none" stroke="midnightblue" d="M301.73,-61.31C284.64,-49.1 263.75,-34.18 250.91,-25.01"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="300.08,-64.43 310.25,-67.4 304.15,-58.74 300.08,-64.43"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="project_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="297.5,-6 297.5,-25 439.5,-25 439.5,-6 297.5,-6"/>
-<text text-anchor="middle" x="368.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">src/project/src/project.cpp</text>
+<g id="a_node4"><a xlink:href="insertionsort_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="336,-6 336,-25 506,-25 506,-6 336,-6"/>
+<text text-anchor="middle" x="421" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">src/project/src/insertionsort.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M310.98,-61.01C326.58,-48.94 345.49,-34.3 357.26,-25.19"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="308.49,-58.51 302.73,-67.4 312.78,-64.04 308.49,-58.51"/>
+<path fill="none" stroke="midnightblue" d="M358.27,-61.31C375.36,-49.1 396.25,-34.18 409.09,-25.01"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="355.85,-58.74 349.75,-67.4 359.92,-64.43 355.85,-58.74"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="insertionsort_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="457.5,-6 457.5,-25 627.5,-25 627.5,-6 457.5,-6"/>
-<text text-anchor="middle" x="542.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">src/project/src/insertionsort.cpp</text>
+<g id="a_node5"><a xlink:href="projectapp_8cpp.html" target="_top" xlink:title="A simple program to demonstrate the usage of the project model class.">
+<polygon fill="white" stroke="black" points="524.5,-0.5 524.5,-30.5 627.5,-30.5 627.5,-0.5 524.5,-0.5"/>
+<text text-anchor="start" x="532.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/projectapp/src</text>
+<text text-anchor="middle" x="576" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/projectapp.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node1&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M346.6,-65.85C397.4,-53.06 467.35,-35.43 508.46,-25.08"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="345.55,-62.51 336.71,-68.35 347.26,-69.3 345.55,-62.51"/>
+<path fill="none" stroke="midnightblue" d="M392.02,-65.11C432.88,-54.32 485.75,-40.35 524.33,-30.15"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="390.94,-61.78 382.17,-67.72 392.73,-68.54 390.94,-61.78"/>
 </g>
 </g>
 </svg>
