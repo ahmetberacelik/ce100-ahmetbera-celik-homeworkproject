@@ -3,6 +3,7 @@
   <compounddef id="dir_637a21c8345a403cb83ed972b4e42671" kind="dir">
     <compoundname>src/project/src</compoundname>
     <innerfile refid="insertionsort_8cpp">insertionsort.cpp</innerfile>
+    <innerfile refid="mergesort_8cpp">mergesort.cpp</innerfile>
     <innerfile refid="project_8cpp">project.cpp</innerfile>
     <briefdescription>
     </briefdescription>

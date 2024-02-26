@@ -4,10 +4,12 @@
   </compound>
   <compound refid="project_8h" kind="file"><name>project.h</name>
     <member refid="project_8h_1a3bc98924103763d535827a36279a2a72" kind="function"><name>menu</name></member>
-    <member refid="project_8h_1abf0c1e63fd57574bd475e5771aff0c1c" kind="function"><name>InsertionSort</name></member>
+    <member refid="project_8h_1a44f5bf3f6e9bddd2b0c0cd11ffb211ab" kind="function"><name>InsertionSort</name></member>
   </compound>
   <compound refid="insertionsort_8cpp" kind="file"><name>insertionsort.cpp</name>
-    <member refid="insertionsort_8cpp_1abf0c1e63fd57574bd475e5771aff0c1c" kind="function"><name>InsertionSort</name></member>
+    <member refid="insertionsort_8cpp_1a44f5bf3f6e9bddd2b0c0cd11ffb211ab" kind="function"><name>InsertionSort</name></member>
+  </compound>
+  <compound refid="mergesort_8cpp" kind="file"><name>mergesort.cpp</name>
   </compound>
   <compound refid="project_8cpp" kind="file"><name>project.cpp</name>
     <member refid="project_8cpp_1a3bc98924103763d535827a36279a2a72" kind="function"><name>menu</name></member>

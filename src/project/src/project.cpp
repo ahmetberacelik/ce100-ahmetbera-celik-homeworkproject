@@ -15,8 +15,8 @@ void menu(std::istream& in, std::ostream& out) {
             in.ignore(1000, '\n');
         }
     }
+    InsertionSort(in, out, number);
     out << "Sorting with Insertion Sort: ";
-    InsertionSort(number);
     for (int a = 0; a < 5; a++) {
         out << number[a] << " ";
     }

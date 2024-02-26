@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="mergesort_8cpp" kind="file" language="C++">
+    <compoundname>mergesort.cpp</compoundname>
+    <includes refid="project_8h" local="yes">../header/project.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>../header/project.h</label>
+        <link refid="project_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/project/src/mergesort.cpp</label>
+        <link refid="mergesort_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;../header/project.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="src/project/src/mergesort.cpp"/>
+  </compounddef>
+</doxygen>

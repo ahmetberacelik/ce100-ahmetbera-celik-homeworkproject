@@ -259,6 +259,16 @@ build src/project/CMakeFiles/project.dir/src/insertionsort.cpp.o: CXX_COMPILER__
   TARGET_COMPILE_PDB = src/project/CMakeFiles/project.dir/project.pdb
   TARGET_PDB = src/project/libproject.pdb
 
+build src/project/CMakeFiles/project.dir/src/mergesort.cpp.o: CXX_COMPILER__project_Debug /mnt/c/Users/Bera/Desktop/ce100-ahmetbera-celik-homeworkproject/src/project/src/mergesort.cpp || cmake_object_order_depends_target_project
+  DEFINES = -DCORUH_PROJECT_LIB_EXPORTS -DENABLE_PROJECT_LOGGER -DENABLE_PROJECT_TEST -DENABLE_UTILITY_LOGGER -DENABLE_UTILITY_TEST -DGCC_ENV
+  DEP_FILE = src/project/CMakeFiles/project.dir/src/mergesort.cpp.o.d
+  FLAGS = -g -g -O0 -Wall -Wextra -Wunused-function -Wno-unknown-pragmas -fprofile-arcs -ftest-coverage -std=gnu++11
+  INCLUDES = -I/mnt/c/Users/Bera/Desktop/ce100-ahmetbera-celik-homeworkproject/src/project/../utility/header -I/mnt/c/Users/Bera/Desktop/ce100-ahmetbera-celik-homeworkproject/src/project/header -I/mnt/c/Users/Bera/Desktop/ce100-ahmetbera-celik-homeworkproject/src/utility/header
+  OBJECT_DIR = src/project/CMakeFiles/project.dir
+  OBJECT_FILE_DIR = src/project/CMakeFiles/project.dir/src
+  TARGET_COMPILE_PDB = src/project/CMakeFiles/project.dir/project.pdb
+  TARGET_PDB = src/project/libproject.pdb
+
 build src/project/CMakeFiles/project.dir/src/project.cpp.o: CXX_COMPILER__project_Debug /mnt/c/Users/Bera/Desktop/ce100-ahmetbera-celik-homeworkproject/src/project/src/project.cpp || cmake_object_order_depends_target_project
   DEFINES = -DCORUH_PROJECT_LIB_EXPORTS -DENABLE_PROJECT_LOGGER -DENABLE_PROJECT_TEST -DENABLE_UTILITY_LOGGER -DENABLE_UTILITY_TEST -DGCC_ENV
   DEP_FILE = src/project/CMakeFiles/project.dir/src/project.cpp.o.d
@@ -277,7 +287,7 @@ build src/project/CMakeFiles/project.dir/src/project.cpp.o: CXX_COMPILER__projec
 #############################################
 # Link the static library src/project/libproject.a
 
-build src/project/libproject.a: CXX_STATIC_LIBRARY_LINKER__project_Debug src/project/CMakeFiles/project.dir/src/insertionsort.cpp.o src/project/CMakeFiles/project.dir/src/project.cpp.o || src/utility/libutility.a
+build src/project/libproject.a: CXX_STATIC_LIBRARY_LINKER__project_Debug src/project/CMakeFiles/project.dir/src/insertionsort.cpp.o src/project/CMakeFiles/project.dir/src/mergesort.cpp.o src/project/CMakeFiles/project.dir/src/project.cpp.o || src/utility/libutility.a
   LANGUAGE_COMPILE_FLAGS = -g -g -O0 -Wall -Wextra -Wunused-function -Wno-unknown-pragmas -fprofile-arcs -ftest-coverage
   OBJECT_DIR = src/project/CMakeFiles/project.dir
   POST_BUILD = :

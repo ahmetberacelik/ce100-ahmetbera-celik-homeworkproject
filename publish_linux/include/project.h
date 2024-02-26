@@ -10,6 +10,6 @@
 
 void menu(std::istream& in, std::ostream& out);
 
-void InsertionSort(int number[5]);
+void InsertionSort(std::istream& in, std::ostream& out, int number[5]);
 
 #endif // PROJECT_H
