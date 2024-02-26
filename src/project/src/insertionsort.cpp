@@ -1,5 +1,4 @@
-#include "../header/insertionsort.h"
-#include <stdio.h>
+#include "../header/project.h"
 /**
  * @brief Sorts an array of integers using the Insertion Sort algorithm.
  *

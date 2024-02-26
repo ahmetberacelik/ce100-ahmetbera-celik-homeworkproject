@@ -1,24 +1,23 @@
-#include "../header/insertionsort.h"
 #include "../header/project.h"
-#include <stdio.h>
+#include <iostream>
 
-void menu() {
+void menu(std::istream& in, std::ostream& out) {
     int number[5];
-    printf("Please enter 5 numbers: \n");
+    out << "Please enter 5 numbers: \n";
     for (int i = 0; i < 5;) {
-        printf("Please enter %d. number: ", i + 1);
-        if (scanf("%d", &number[i]) == 1) {
+        out << "Please enter " << i + 1 << ". number: ";
+        if (in >> number[i]) {
             i++;
         }
         else {
-            printf("Error: Please enter a valid number.\n");
-            while (getchar() != '\n');
+            out << "Error: Please enter a valid number.\n";
+            in.clear();
+            in.ignore(1000, '\n');
         }
     }
-    printf("Sorting with Insertion Sort: ");
+    out << "Sorting with Insertion Sort: ";
     InsertionSort(number);
     for (int a = 0; a < 5; a++) {
-        printf("%d ", number[a]);
+        out << number[a] << " ";
     }
-    printf("\nSorting with Merge Sort: ");
 }

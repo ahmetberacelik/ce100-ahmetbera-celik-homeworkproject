@@ -2,18 +2,15 @@
 <doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.7" xml:lang="en-US">
   <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
   </compound>
-  <compound refid="insertionsort_8h" kind="file"><name>insertionsort.h</name>
-    <member refid="insertionsort_8h_1a60a64e99109ecafd1200533067660255" kind="define"><name>PROJECT_H</name></member>
-    <member refid="insertionsort_8h_1abf0c1e63fd57574bd475e5771aff0c1c" kind="function"><name>InsertionSort</name></member>
-  </compound>
   <compound refid="project_8h" kind="file"><name>project.h</name>
-    <member refid="project_8h_1a2a0e843767aeea4f433a28b9c54f573a" kind="function"><name>menu</name></member>
+    <member refid="project_8h_1a3bc98924103763d535827a36279a2a72" kind="function"><name>menu</name></member>
+    <member refid="project_8h_1abf0c1e63fd57574bd475e5771aff0c1c" kind="function"><name>InsertionSort</name></member>
   </compound>
   <compound refid="insertionsort_8cpp" kind="file"><name>insertionsort.cpp</name>
     <member refid="insertionsort_8cpp_1abf0c1e63fd57574bd475e5771aff0c1c" kind="function"><name>InsertionSort</name></member>
   </compound>
   <compound refid="project_8cpp" kind="file"><name>project.cpp</name>
-    <member refid="project_8cpp_1a2a0e843767aeea4f433a28b9c54f573a" kind="function"><name>menu</name></member>
+    <member refid="project_8cpp_1a3bc98924103763d535827a36279a2a72" kind="function"><name>menu</name></member>
   </compound>
   <compound refid="projectapp_8h" kind="file"><name>projectapp.h</name>
   </compound>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_134f77fec9e87f7d31f34c58ade30ca2" kind="dir">
+    <compoundname>src/projectapp</compoundname>
+    <innerdir refid="dir_dd960212262d29050b59d6cbaf4fb870">src/projectapp/header</innerdir>
+    <innerdir refid="dir_7adf8672e88752254b0a8d25c2cb3775">src/projectapp/src</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/projectapp/"/>
+  </compounddef>
+</doxygen>

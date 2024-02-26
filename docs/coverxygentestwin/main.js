@@ -221,14 +221,14 @@ var assemblies = [
   {
     "name": "Default",
     "classes": [
-      { "name": "C:\\Users\\Bera\\Desktop\\ce100-ahmetbera-celik-homeworkproject\\src\\tests\\project\\project_test.cpp", "rp": "C__Users_Bera_Desktop_ce100_ahmetbera_celik_homeworkproject_src_tests_project_project_test.cpp.html", "cl": 1, "ucl": 8, "cal": 9, "tl": 49, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [11.1], "bch": [], "mch": [], "hc": [{ "et": "24/02/2024 - 16:53:16", "cl": 1, "ucl": 8, "cal": 9, "tl": 49, "lcq": 11.1, "cb": 0, "tb": 0, "bcq": 0, "cm": 0, "tm": 0, "mcq": 0 }], "metrics": { } },
-      { "name": "C:\\Users\\Bera\\Desktop\\ce100-ahmetbera-celik-homeworkproject\\src\\tests\\utility\\utility_test.cpp", "rp": "C__Users_Bera_Desktop_ce100_ahmetbera_celik_homeworkproject_src_tests_utility_utility_test.cpp.html", "cl": 0, "ucl": 1, "cal": 1, "tl": 0, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [0], "bch": [], "mch": [], "hc": [{ "et": "24/02/2024 - 16:53:16", "cl": 0, "ucl": 1, "cal": 1, "tl": 0, "lcq": 0, "cb": 0, "tb": 0, "bcq": 0, "cm": 0, "tm": 0, "mcq": 0 }], "metrics": { } },
+      { "name": "C:\\Users\\Bera\\Desktop\\ce100-ahmetbera-celik-homeworkproject\\src\\tests\\project\\project_test.cpp", "rp": "C__Users_Bera_Desktop_ce100_ahmetbera_celik_homeworkproject_src_tests_project_project_test.cpp.html", "cl": 1, "ucl": 10, "cal": 11, "tl": 75, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [11.1,10,9], "bch": [], "mch": [], "hc": [{ "et": "24/02/2024 - 16:53:16", "cl": 1, "ucl": 8, "cal": 9, "tl": 49, "lcq": 11.1, "cb": 0, "tb": 0, "bcq": 0, "cm": 0, "tm": 0, "mcq": 0 }, { "et": "26/02/2024 - 15:58:02", "cl": 1, "ucl": 9, "cal": 10, "tl": 60, "lcq": 10, "cb": 0, "tb": 0, "bcq": 0, "cm": 0, "tm": 0, "mcq": 0 }, { "et": "26/02/2024 - 16:19:41", "cl": 1, "ucl": 10, "cal": 11, "tl": 75, "lcq": 9, "cb": 0, "tb": 0, "bcq": 0, "cm": 0, "tm": 0, "mcq": 0 }, { "et": "26/02/2024 - 16:20:12", "cl": 1, "ucl": 10, "cal": 11, "tl": 75, "lcq": 9, "cb": 0, "tb": 0, "bcq": 0, "cm": 0, "tm": 0, "mcq": 0 }], "metrics": { } },
+      { "name": "C:\\Users\\Bera\\Desktop\\ce100-ahmetbera-celik-homeworkproject\\src\\tests\\utility\\utility_test.cpp", "rp": "C__Users_Bera_Desktop_ce100_ahmetbera_celik_homeworkproject_src_tests_utility_utility_test.cpp.html", "cl": 0, "ucl": 1, "cal": 1, "tl": 0, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [0], "bch": [], "mch": [], "hc": [{ "et": "24/02/2024 - 16:53:16", "cl": 0, "ucl": 1, "cal": 1, "tl": 0, "lcq": 0, "cb": 0, "tb": 0, "bcq": 0, "cm": 0, "tm": 0, "mcq": 0 }, { "et": "26/02/2024 - 15:58:02", "cl": 0, "ucl": 1, "cal": 1, "tl": 0, "lcq": 0, "cb": 0, "tb": 0, "bcq": 0, "cm": 0, "tm": 0, "mcq": 0 }, { "et": "26/02/2024 - 16:19:41", "cl": 0, "ucl": 1, "cal": 1, "tl": 0, "lcq": 0, "cb": 0, "tb": 0, "bcq": 0, "cm": 0, "tm": 0, "mcq": 0 }, { "et": "26/02/2024 - 16:20:12", "cl": 0, "ucl": 1, "cal": 1, "tl": 0, "lcq": 0, "cb": 0, "tb": 0, "bcq": 0, "cm": 0, "tm": 0, "mcq": 0 }], "metrics": { } },
     ]},
 ];
 
 var metrics = [];
 
-var historicCoverageExecutionTimes = [];
+var historicCoverageExecutionTimes = ["26/02/2024 - 16:19:41", "26/02/2024 - 15:58:02", "24/02/2024 - 16:53:16"];
 
 var riskHotspotMetrics = [
 ];

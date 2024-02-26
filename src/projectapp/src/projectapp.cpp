@@ -5,12 +5,10 @@
  * This program process infix notations and calculate operations
  *
  */
-
- // Standard Libraries
 #include <iostream>
 #include "../../project/header/project.h"
 
 int main() {
-    menu();
+    menu(std::cin, std::cout);
     return 0;
 }

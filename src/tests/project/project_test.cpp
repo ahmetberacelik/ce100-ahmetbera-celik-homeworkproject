@@ -1,8 +1,8 @@
 //#define ENABLE_PROJECT_TEST  // Uncomment this line to enable the Project tests
 
 #include "gtest/gtest.h"
-#include "../header/insertionsort.h"
-#include "../../project/header/project.h"  // Adjust this include path based on your project structure
+#include "../../project/header/project.h"
+ // Adjust this include path based on your project structure
 
 class ProjectTest : public ::testing::Test {
 protected:
@@ -31,7 +31,33 @@ TEST_F(ProjectTest, InsertionSortTest) {
         EXPECT_EQ(arr[i], sortedArr[i]);
     }
 }
+TEST_F(ProjectTest, ValidInputTest) {
+    simulateUserInput("8\n7\n3\n47\n96\n");
+    menu(in, out);
+    std::string expectedOutput = "Please enter 5 numbers: \n";
+    expectedOutput += "Please enter 1. number: ";
+    expectedOutput += "Please enter 2. number: ";
+    expectedOutput += "Please enter 3. number: ";
+    expectedOutput += "Please enter 4. number: ";
+    expectedOutput += "Please enter 5. number: ";
+    expectedOutput += "Sorting with Insertion Sort: 3 7 8 47 96 ";
+    EXPECT_EQ(expectedOutput, out.str());
+}
 
+TEST_F(ProjectTest, NonNumberInputTest) {
+    simulateUserInput("**\n8\n7\n3\n47\n96\n");
+    menu(in, out);
+    std::string expectedOutput = "Please enter 5 numbers: \n";
+    expectedOutput += "Please enter 1. number: ";
+    expectedOutput += "Error: Please enter a valid number.\n";
+    expectedOutput += "Please enter 1. number: ";
+    expectedOutput += "Please enter 2. number: ";
+    expectedOutput += "Please enter 3. number: ";
+    expectedOutput += "Please enter 4. number: ";
+    expectedOutput += "Please enter 5. number: ";
+    expectedOutput += "Sorting with Insertion Sort: 3 7 8 47 96 ";
+    EXPECT_EQ(expectedOutput, out.str());
+}
 /**
  * @brief The main function of the test program.
  *

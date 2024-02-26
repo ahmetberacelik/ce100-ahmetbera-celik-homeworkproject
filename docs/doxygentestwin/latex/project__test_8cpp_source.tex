@@ -5,8 +5,8 @@
 \DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00001}00001\ \textcolor{comment}{//\#define\ ENABLE\_PROJECT\_TEST\ \ //\ Uncomment\ this\ line\ to\ enable\ the\ Project\ tests}}
 \DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00002}00002\ }
 \DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00003}00003\ \textcolor{preprocessor}{\#include\ "{}gtest/gtest.h"{}}}
-\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00004}00004\ \textcolor{preprocessor}{\#include\ "{}../header/insertionsort.h"{}}}
-\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00005}00005\ \textcolor{preprocessor}{\#include\ "{}../../project/header/project.h"{}}\ \ \textcolor{comment}{//\ Adjust\ this\ include\ path\ based\ on\ your\ project\ structure}}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00004}00004\ \textcolor{preprocessor}{\#include\ "{}../../project/header/project.h"{}}}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00005}00005\ \ \textcolor{comment}{//\ Adjust\ this\ include\ path\ based\ on\ your\ project\ structure}}
 \DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00006}00006\ }
 \DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00007}\mbox{\hyperlink{class_project_test}{00007}}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_project_test}{ProjectTest}}\ :\ \textcolor{keyword}{public}\ ::testing::Test\ \{}
 \DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00008}00008\ \textcolor{keyword}{protected}:}
@@ -35,14 +35,40 @@
 \DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00031}00031\ \ \ \ \ \ \ \ \ EXPECT\_EQ(arr[i],\ sortedArr[i]);}
 \DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00032}00032\ \ \ \ \ \}}
 \DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00033}00033\ \}}
-\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00034}00034\ }
-\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00042}\mbox{\hyperlink{project__test_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{00042}}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{project__test_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{main}}(\textcolor{keywordtype}{int}\ argc,\ \textcolor{keywordtype}{char}**\ argv)\ \{}
-\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00043}00043\ \textcolor{preprocessor}{\#ifdef\ ENABLE\_PROJECT\_TEST}}
-\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00044}00044\ \ \ \ \ ::testing::InitGoogleTest(\&argc,\ argv);}
-\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00045}00045\ \ \ \ \ \textcolor{keywordflow}{return}\ RUN\_ALL\_TESTS();}
-\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00046}00046\ \textcolor{preprocessor}{\#else}}
-\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00047}00047\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
-\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00048}00048\ \textcolor{preprocessor}{\#endif}}
-\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00049}00049\ \}}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00034}\mbox{\hyperlink{project__test_8cpp_ac1332b8e501c645cf383efd5b7026e3d}{00034}}\ \mbox{\hyperlink{project__test_8cpp_ad9bd2b5f8215382ff0c272b8596eeaef}{TEST\_F}}(\mbox{\hyperlink{class_project_test}{ProjectTest}},\ ValidInputTest)\ \{}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00035}00035\ \ \ \ \ simulateUserInput(\textcolor{stringliteral}{"{}8\(\backslash\)n7\(\backslash\)n3\(\backslash\)n47\(\backslash\)n96\(\backslash\)n"{}});}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00036}00036\ \ \ \ \ menu(in,\ out);}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00037}00037\ \ \ \ \ std::string\ expectedOutput\ =\ \textcolor{stringliteral}{"{}Please\ enter\ 5\ numbers:\ \(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00038}00038\ \ \ \ \ expectedOutput\ +=\ \textcolor{stringliteral}{"{}Please\ enter\ 1.\ number:\ "{}};}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00039}00039\ \ \ \ \ expectedOutput\ +=\ \textcolor{stringliteral}{"{}Please\ enter\ 2.\ number:\ "{}};}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00040}00040\ \ \ \ \ expectedOutput\ +=\ \textcolor{stringliteral}{"{}Please\ enter\ 3.\ number:\ "{}};}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00041}00041\ \ \ \ \ expectedOutput\ +=\ \textcolor{stringliteral}{"{}Please\ enter\ 4.\ number:\ "{}};}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00042}00042\ \ \ \ \ expectedOutput\ +=\ \textcolor{stringliteral}{"{}Please\ enter\ 5.\ number:\ "{}};}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00043}00043\ \ \ \ \ expectedOutput\ +=\ \textcolor{stringliteral}{"{}Sorting\ with\ Insertion\ Sort:\ 3\ 7\ 8\ 47\ 96\ "{}};}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00044}00044\ \ \ \ \ EXPECT\_EQ(expectedOutput,\ out.str());}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00045}00045\ \}}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00046}00046\ }
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00047}\mbox{\hyperlink{project__test_8cpp_ab1af176ff85927f8894b18ae0cf472b2}{00047}}\ \mbox{\hyperlink{project__test_8cpp_ad9bd2b5f8215382ff0c272b8596eeaef}{TEST\_F}}(\mbox{\hyperlink{class_project_test}{ProjectTest}},\ NonNumberInputTest)\ \{}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00048}00048\ \ \ \ \ simulateUserInput(\textcolor{stringliteral}{"{}**\(\backslash\)n8\(\backslash\)n7\(\backslash\)n3\(\backslash\)n47\(\backslash\)n96\(\backslash\)n"{}});}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00049}00049\ \ \ \ \ menu(in,\ out);}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00050}00050\ \ \ \ \ std::string\ expectedOutput\ =\ \textcolor{stringliteral}{"{}Please\ enter\ 5\ numbers:\ \(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00051}00051\ \ \ \ \ expectedOutput\ +=\ \textcolor{stringliteral}{"{}Please\ enter\ 1.\ number:\ "{}};}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00052}00052\ \ \ \ \ expectedOutput\ +=\ \textcolor{stringliteral}{"{}Error:\ Please\ enter\ a\ valid\ number.\(\backslash\)n"{}};}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00053}00053\ \ \ \ \ expectedOutput\ +=\ \textcolor{stringliteral}{"{}Please\ enter\ 1.\ number:\ "{}};}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00054}00054\ \ \ \ \ expectedOutput\ +=\ \textcolor{stringliteral}{"{}Please\ enter\ 2.\ number:\ "{}};}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00055}00055\ \ \ \ \ expectedOutput\ +=\ \textcolor{stringliteral}{"{}Please\ enter\ 3.\ number:\ "{}};}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00056}00056\ \ \ \ \ expectedOutput\ +=\ \textcolor{stringliteral}{"{}Please\ enter\ 4.\ number:\ "{}};}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00057}00057\ \ \ \ \ expectedOutput\ +=\ \textcolor{stringliteral}{"{}Please\ enter\ 5.\ number:\ "{}};}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00058}00058\ \ \ \ \ expectedOutput\ +=\ \textcolor{stringliteral}{"{}Sorting\ with\ Insertion\ Sort:\ 3\ 7\ 8\ 47\ 96\ "{}};}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00059}00059\ \ \ \ \ EXPECT\_EQ(expectedOutput,\ out.str());}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00060}00060\ \}}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00068}\mbox{\hyperlink{project__test_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{00068}}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{project__test_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{main}}(\textcolor{keywordtype}{int}\ argc,\ \textcolor{keywordtype}{char}**\ argv)\ \{}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00069}00069\ \textcolor{preprocessor}{\#ifdef\ ENABLE\_PROJECT\_TEST}}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00070}00070\ \ \ \ \ ::testing::InitGoogleTest(\&argc,\ argv);}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00071}00071\ \ \ \ \ \textcolor{keywordflow}{return}\ RUN\_ALL\_TESTS();}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00072}00072\ \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00073}00073\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00074}00074\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{\Hypertarget{project__test_8cpp_source_l00075}00075\ \}}
 
 \end{DoxyCode}

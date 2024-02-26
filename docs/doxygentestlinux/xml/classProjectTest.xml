@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classProjectTest" kind="class" language="C++" prot="public">
+    <compoundname>ProjectTest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">testing::Test</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classProjectTest_1a0c582bad886b85a8c8d8af1d722c6821" prot="protected" static="no" mutable="no">
+        <type>std::ostringstream</type>
+        <definition>std::ostringstream ProjectTest::out</definition>
+        <argsstring></argsstring>
+        <name>out</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/project/project_test.cpp" line="9" column="24" bodyfile="src/tests/project/project_test.cpp" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classProjectTest_1a6199226876d7ee68c663405f5bb83e2a" prot="protected" static="no" mutable="no">
+        <type>std::istringstream</type>
+        <definition>std::istringstream ProjectTest::in</definition>
+        <argsstring></argsstring>
+        <name>in</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/project/project_test.cpp" line="10" column="24" bodyfile="src/tests/project/project_test.cpp" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classProjectTest_1afe3d3b5a2860873328f75762183f299b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProjectTest::SetUp</definition>
+        <argsstring>() override</argsstring>
+        <name>SetUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/project/project_test.cpp" line="11" column="10" bodyfile="src/tests/project/project_test.cpp" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classProjectTest_1a922f06a512fa37ef0ce7ce755025caa8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProjectTest::TearDown</definition>
+        <argsstring>() override</argsstring>
+        <name>TearDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/project/project_test.cpp" line="15" column="10" bodyfile="src/tests/project/project_test.cpp" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classProjectTest_1ab5f127f1083924a5a0b645eb8202b28f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProjectTest::simulateUserInput</definition>
+        <argsstring>(const std::string &amp;input)</argsstring>
+        <name>simulateUserInput</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/project/project_test.cpp" line="18" column="10" bodyfile="src/tests/project/project_test.cpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>testing::Test</label>
+      </node>
+      <node id="1">
+        <label>ProjectTest</label>
+        <link refid="classProjectTest"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>testing::Test</label>
+      </node>
+      <node id="1">
+        <label>ProjectTest</label>
+        <link refid="classProjectTest"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/tests/project/project_test.cpp" line="7" column="1" bodyfile="src/tests/project/project_test.cpp" bodystart="7" bodyend="22"/>
+    <listofallmembers>
+      <member refid="classProjectTest_1a6199226876d7ee68c663405f5bb83e2a" prot="protected" virt="non-virtual"><scope>ProjectTest</scope><name>in</name></member>
+      <member refid="classProjectTest_1a0c582bad886b85a8c8d8af1d722c6821" prot="protected" virt="non-virtual"><scope>ProjectTest</scope><name>out</name></member>
+      <member refid="classProjectTest_1afe3d3b5a2860873328f75762183f299b" prot="protected" virt="non-virtual"><scope>ProjectTest</scope><name>SetUp</name></member>
+      <member refid="classProjectTest_1ab5f127f1083924a5a0b645eb8202b28f" prot="protected" virt="non-virtual"><scope>ProjectTest</scope><name>simulateUserInput</name></member>
+      <member refid="classProjectTest_1a922f06a512fa37ef0ce7ce755025caa8" prot="protected" virt="non-virtual"><scope>ProjectTest</scope><name>TearDown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

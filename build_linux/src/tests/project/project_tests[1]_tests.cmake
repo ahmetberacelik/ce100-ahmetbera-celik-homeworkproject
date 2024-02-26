@@ -1,0 +1,7 @@
+add_test( ProjectTest.InsertionSortTest /mnt/c/Users/Bera/Desktop/ce100-ahmetbera-celik-homeworkproject/build_linux/build/Debug/project_tests [==[--gtest_filter=ProjectTest.InsertionSortTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties( ProjectTest.InsertionSortTest PROPERTIES WORKING_DIRECTORY /mnt/c/Users/Bera/Desktop/ce100-ahmetbera-celik-homeworkproject/build_linux/src/tests/project SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test( ProjectTest.ValidInputTest /mnt/c/Users/Bera/Desktop/ce100-ahmetbera-celik-homeworkproject/build_linux/build/Debug/project_tests [==[--gtest_filter=ProjectTest.ValidInputTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties( ProjectTest.ValidInputTest PROPERTIES WORKING_DIRECTORY /mnt/c/Users/Bera/Desktop/ce100-ahmetbera-celik-homeworkproject/build_linux/src/tests/project SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test( ProjectTest.NonNumberInputTest /mnt/c/Users/Bera/Desktop/ce100-ahmetbera-celik-homeworkproject/build_linux/build/Debug/project_tests [==[--gtest_filter=ProjectTest.NonNumberInputTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties( ProjectTest.NonNumberInputTest PROPERTIES WORKING_DIRECTORY /mnt/c/Users/Bera/Desktop/ce100-ahmetbera-celik-homeworkproject/build_linux/src/tests/project SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set( project_tests_TESTS ProjectTest.InsertionSortTest ProjectTest.ValidInputTest ProjectTest.NonNumberInputTest)
