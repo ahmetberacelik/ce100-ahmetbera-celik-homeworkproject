@@ -18,4 +18,6 @@ void MergeSort(int A[], int p, int r);
 
 void MergeSortPrintArray(std::ostream& out, int A[], int size);
 
+void SelectionSort(std::ostream& out, int A[], int size);
+
 #endif // PROJECT_H

@@ -24,7 +24,14 @@ void menu(std::istream& in, std::ostream& out) {
         out << number[a] << " ";
     }
     out << "\n";
+    out << "Sorting with Merge Sort: \n";
     MergeSort(number, 0, number_size - 1);
-    out << "Sorting with Merge Sort: ";
+    out << "Merge Sort Result: ";
     MergeSortPrintArray(out, number, number_size);
+    out << "Sorting with Selection Sort: \n";
+    SelectionSort(out, number, number_size);
+    out << "Selection Sort Result: ";
+    for (int a2 = 0; a2 < 5; a2++) {
+        out << number[a2] << " ";
+    }
 }
